@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuis Online Islami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+    <h2>Kuis Online Islami</h2>
+    <p class="keterangan">Pilih jawaban yang benar</p>
+
+    <form id="formKuis">
+
+        <p>1. Rukun Islam yang pertama adalah?</p>
+        <input type="radio" name="soal1" value="20"> Syahadat<br>
+        <input type="radio" name="soal1" value="0"> Shalat<br>
+        <input type="radio" name="soal1" value="0"> Zakat<br>
+        <input type="radio" name="soal1" value="0"> Puasa<br>
+
+        <p>2. Kitab suci umat Islam adalah?</p>
+        <input type="radio" name="soal2" value="20"> Al-Qur'an<br>
+        <input type="radio" name="soal2" value="0"> Injil<br>
+        <input type="radio" name="soal2" value="0"> Taurat<br>
+        <input type="radio" name="soal2" value="0"> Zabur<br>
+
+        <p>3. Nabi terakhir adalah?</p>
+        <input type="radio" name="soal3" value="20"> Nabi Muhammad SAW<br>
+        <input type="radio" name="soal3" value="0"> Nabi Musa AS<br>
+        <input type="radio" name="soal3" value="0"> Nabi Isa AS<br>
+        <input type="radio" name="soal3" value="0"> Nabi Ibrahim AS<br>
+
+        <p>4. Jumlah rukun iman ada?</p>
+        <input type="radio" name="soal4" value="0"> 5<br>
+        <input type="radio" name="soal4" value="20"> 6<br>
+        <input type="radio" name="soal4" value="0"> 7<br>
+        <input type="radio" name="soal4" value="0"> 4<br>
+
+        <p>5. Bulan wajib puasa adalah?</p>
+        <input type="radio" name="soal5" value="20"> Ramadhan<br>
+        <input type="radio" name="soal5" value="0"> Syawal<br>
+        <input type="radio" name="soal5" value="0"> Muharram<br>
+        <input type="radio" name="soal5" value="0"> Dzulhijjah<br>
+
+        <br>
+        <button type="button" onclick="cekJawaban()">Submit</button>
+        <button type="button" onclick="ulang()">Ulangi</button>
+
+    </form>
+
+    <h3 id="hasil"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

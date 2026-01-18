@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background-color: #ffe6f0;
+}
+
+.box {
+    width: 450px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: #d81b60;
+}
+
+.keterangan {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+p {
+    font-weight: bold;
+    color: #ad1457;
+}
+
+button {
+    padding: 10px;
+    background-color: #f48fb1;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #ec407a;
+}
+
+#hasil {
+    text-align: center;
+    margin-top: 15px;
+}
